@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>热点图工具之svg方案 - @演说.io</title>
+
+    <meta name="keywords" content="演说，yanshuo, yanshuo.io, 演说.io, 空中演说, 展示文稿, HTML 展示文稿, Web 展示文稿" />
+  	  <meta name="description" content="创作真正跨平台的 HTML5 展示文稿，让你的分享到达世界的任何一个角落" />
+
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  		<!-- Reveal base style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/css/reveal.min.css">
+
+  		<!-- Yanshuo.io seed style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-block.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-hljs-theme-bundler.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-reveal-theme-bundler.min.css">
+
+  		<!-- Source Sans Web Fonts -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/lib/font/source-sans-pro/source-sans-pro.css">
+
+      <!-- Printing and PDF exports -->
+      <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://yanshuo.io/assets/player//css/print/pdf.css' : '';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+
+      <!--[if lt IE 9]>
+  		<script src="lib/js/html5shiv.js"></script>
+  		<![endif]-->
+
+  		<!-- style for "critical path" -->
+  		<style>
+  	  </style>
+  </head>
+  <body>
+    <!-- TODO: a lightweighted loading -->
+
+    <!-- main slides -->
+    <div id="YS" class="at-code-lh-12" style="width:100%;height:100%;" data-reveal-theme="solarized" data-highlight-theme="zenburn" data-ys-title="热点图工具之svg方案" data-ys-user="幻觉的仪式" data-ys-transition="slide" data-ys-backgroundTransition="default" data-ys-transitionSpeed="default"><div class="reveal"><div class="slides"><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1><span style="font-size:72px">热点图工具之svg方案</span></h1></article></div><div style="left:705.550135501355px;top:582.2222222222222px;width:304.6070460704607px;height:auto;" class="at-block at-block--pure"><article class="at-block-content"><h2><span style="font-size:28px">via&nbsp;<a href="http://yanshuo.io">演说.io</a></span></h2></article></div><div style="left:574.3929539295393px;top:526.7750677506775px;width:375.06775067750675px;height:auto;" class="at-block at-block--pure"><article class="at-block-content"><p>baozeng &nbsp;2017-01-19</p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:650.8563685636857px;height:272.42685133691725px;left:168.4959349593496px;top:172.71951219512192px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/(N1I8A%24AQTW_VWUSD9AGRN7.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:549.3333333333333px;left:-1.1680216802168024px;top:74.24932249322498px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/%60SH%60TF%25EG%40PR~SFLMHVU1UH.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:160px;height:52px;left:400px;top:324px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/_E31S0G%408MUPTANJZ%5B(KHIW.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:274.5085296506905px;left:0;top:-5.72038948659187px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/9A38ARO2~%24RVGVP%7BUEK~29O.png /></article></div><div style="width:960px;height:464.1490262489416px;left:-1.0840108401084008px;top:269.10705869124735px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/FEQWF%5B8HGX%7D%403G%7D%25B3A5VF8.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:357.9888268156424px;left:0;top:176.58553239163678px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/YMEU5L4%7DZU8DCT284)E%5BO%7B6.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:451px;height:58px;left:254.5px;top:321px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/L%7D%25JY%5DW9%60BN47C%5BWPRV)(30.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:345px;height:72px;left:307.5px;top:314px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/N%7D%7D7AK%605_%40P4%24%60LMC_I4BVU.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:639px;height:111px;left:160.5px;top:294.5px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/UFYV%40%7B%5D%60L33A95%60U_BUEJ75.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:592.987012987013px;left:0;top:53.506493506493484px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/JFNDCWWR3~BVL4CX)IEE88W.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:580.0677966101696px;left:0;top:59.96610169491521px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/8N%5BZ5K(1Y%5DX%401O%7BWDAF%60LNC.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:651px;height:62px;left:154.5px;top:319px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/2~C9X6NNVI~5Y~KO(KUK3~G.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:958px;height:247px;left:1px;top:226.5px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/8SE12U%24U54UUC)ZWN%5DM7O%5DR.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:541.4758269720102px;left:0;top:79.26208651399492px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/KGK7~)XM%7B1((PUJ0O_N53ER.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:274.5085296506905px;left:0;top:212.74573517465475px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/9A38ARO2~%24RVGVP%7BUEK~29O.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:960px;height:473.3333333333333px;left:0;top:113.33333333333334px;" class="at-block at-block--pure"><article class="at-block-content"><img src=https://raw.githubusercontent.com/zbb/hexo-img/master/ppt/Y%7D9BTPX%60JPQ%7D%7D%5B7G8_B6_1I.png /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><p>demo地址: &nbsp;<a href="http://119.29.8.64/repo/hotarea/">http://119.29.8.64/repo/hotarea/</a></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:83px;top:220px;width:782.9184968277208px;height:auto;" class="at-block at-block--pure"><article class="at-block-content"><p><span style="font-size:72px">Thinks</span></p></article></div></section><style>.at-block{ position:absolute }</style></div></div></div>
+
+    <!-- dependencies -->
+		<script src="https://yanshuo.io/assets/player/lib/js/head.min.js"></script>
+		<script src="https://yanshuo.io/assets/player/js/reveal.min.js"></script>
+
+    <!-- init -->
+    <script>
+      Reveal.initialize({
+        controls: true,
+        history: true,
+        center: false,
+
+        transition:             'slide',
+        backgroundTransition:   'default',
+        transitionSpeed:        'default',
+
+        // no marked.js
+				// no markdown.js
+				// no highlight.js
+				dependencies: [
+					{ src: 'https://yanshuo.io/assets/player/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'https://yanshuo.io/assets/player/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'https://yanshuo.io/assets/player/plugin/notes/notes.js', async: true }
+				]
+      });
+    </script>
+  </body>
+</html>
